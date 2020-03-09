@@ -144,12 +144,7 @@ b) How cool are the coldest 10% of the days (days with the lowest average high t
 
 ## R EXERCISE
 
-Pizza delivery times are approximately normally distributed, with mean 30 minutes and standard deviation 5 minutes. In the R chunk below, 500 pizza delivery times are simulated from a normal distribution with that mean and variance. You will use this simulated data set, pizza_wait_sim, throughout this exercise. This exercise involves as review of the pnorm() and qnorm() functions we saw in lecture.
-
-```{r pizza delivery waiting times}
-## Simulated waiting times for pizza delivery
-pizza_wait_sim <- rnorm(n=500, mean=30, sd=5)
-```
+Pizza delivery times are approximately normally distributed, with mean 30 minutes and standard deviation 5 minutes. You will use this information to answer the questions below. This exercise involves as review of the pnorm() and qnorm() functions we saw in lecture.
 
 #### What is the probability that delivery takes less than 20 minutes?
 
